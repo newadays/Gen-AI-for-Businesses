@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jupyter/python-for-pms/cuda-df-gtc-2025/mlruns/0/038d44fbf5e14e0382aede55c8a258bf/artifacts
+end_time: 1742482140903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 038d44fbf5e14e0382aede55c8a258bf
+run_name: resilient-mouse-973
+run_uuid: 038d44fbf5e14e0382aede55c8a258bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742481984810
+status: 3
+tags: []
+user_id: jupyter

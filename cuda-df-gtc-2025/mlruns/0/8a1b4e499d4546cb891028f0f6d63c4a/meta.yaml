@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jupyter/python-for-pms/cuda-df-gtc-2025/mlruns/0/8a1b4e499d4546cb891028f0f6d63c4a/artifacts
+end_time: 1742482494815
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a1b4e499d4546cb891028f0f6d63c4a
+run_name: gifted-stag-616
+run_uuid: 8a1b4e499d4546cb891028f0f6d63c4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742482207316
+status: 3
+tags: []
+user_id: jupyter

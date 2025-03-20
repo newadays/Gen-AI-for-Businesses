@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jupyter/python-for-pms/cuda-df-gtc-2025/mlruns/0/4b0a27c48ce5490e9132ce4c51a1f977/artifacts
+end_time: 1742483105176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b0a27c48ce5490e9132ce4c51a1f977
+run_name: polite-flea-191
+run_uuid: 4b0a27c48ce5490e9132ce4c51a1f977
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742482525822
+status: 3
+tags: []
+user_id: jupyter

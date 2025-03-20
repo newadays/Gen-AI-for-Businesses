@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jupyter/python-for-pms/cuda-df-gtc-2025/mlruns/0/425d45a2719645748c2bcac2e99dccc3/artifacts
+end_time: 1742484195943
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 425d45a2719645748c2bcac2e99dccc3
+run_name: nosy-asp-881
+run_uuid: 425d45a2719645748c2bcac2e99dccc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742483156571
+status: 3
+tags: []
+user_id: jupyter
