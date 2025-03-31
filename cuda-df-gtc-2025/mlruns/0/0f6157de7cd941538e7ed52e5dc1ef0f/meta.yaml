@@ -1,5 +1,5 @@
 artifact_uri: file:///home/jupyter/python-for-pms/cuda-df-gtc-2025/mlruns/0/0f6157de7cd941538e7ed52e5dc1ef0f/artifacts
-end_time: null
+end_time: 1742488260628
 entry_point_name: ''
 experiment_id: '0'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1742484233580
-status: 1
+status: 3
 tags: []
 user_id: jupyter
