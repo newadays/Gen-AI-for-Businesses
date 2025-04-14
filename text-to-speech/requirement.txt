@@ -1,0 +1,10 @@
+transformers
+espeakng
+huggingface_hub
+huggingface_hub[hf_xet]
+accelerate
+torch
+google-cloud-vision
+together
+openai
+librosa

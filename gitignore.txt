@@ -31,7 +31,7 @@ yarn-error.log*
 **service-account-prod.json
 **secrets
 # dotenv environment variables file
-*.env
+**.env
 
 # Firebase cache
 **/firebaseConfig
