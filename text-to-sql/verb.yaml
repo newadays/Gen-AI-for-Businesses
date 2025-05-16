@@ -1,0 +1,43 @@
+build:
+    base_image: nvcr.io/nvidia/rapidsai/base:25.04-cuda12.8-py3.12
+    python_version: "3.10"
+    python_requirements: ""
+    python_packages:
+        - jupyterlab
+        - jupyter-server
+        - ipywidgets
+    run:
+        - command: curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install -y nodejs
+          mounts: []
+        - command: pip install git+https://github.com/brevdev/brevmakesjupyterlookbetter
+          mounts: []
+        - command: mkdir -p $HOME/.jupyter/lab/user-settings/@jupyterlab/apputils-extension && echo '{"theme":"brevmakesjupyterlookbetter"}' > $HOME/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings; jupyter server extension enable brevmakesjupyterlookbetter
+          mounts: []
+        - command: pip install --extra-index-url https://pypi.anaconda.org/rapidsai-wheels-nightly/simple --pre jupyterlab_nvdashboard
+          mounts: []
+        - command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+          mounts: []
+    system_packages: []
+    pre_install: []
+    cuda: 12.0.1
+    cudnn: ""
+name: ""
+predict: ""
+train: ""
+services:
+    - user: ""
+      workingDirectory: /root/verb-workspace
+      name: jupyter
+      entrypoint: jupyter-lab --allow-root --ip=0.0.0.0 --no-browser --NotebookApp.token='' --NotebookApp.password=''
+      ports:
+        - 127.0.0.1:8888:8888
+ssh:
+    externalPort: 0
+ports:
+    - "2222:22"
+user:
+    name: root
+    home: /root
+    work: ""
+    shell: zsh
+    authorized_keys_path: /home/ubuntu/.ssh/authorized_keys
